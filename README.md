@@ -14,5 +14,7 @@
 
 <br>
 <h3 align="center">Satchels! ▪ Prismel/Prismint! ▪ Modger! ▪ Hats! ▪ Mail!</h3><br>
+<p align="center">Fabric 1.19.2-1.20 mod implementing small tweaks, new utility items including the satchel <em>(a Traveler's Backpack with more mod integration, more "fun" features at expense of storage, and a bit of flair. Complements, not substitutes)</em>, a simple Vanilla-flavored mail system, plentiful comforts, perilous dangers, and lots of mint.<br><br>These are features I've wanted out of the Fabric modded experience, whether they be old Forge mods (looking at you, Roguelike Dungeons), stray ideas, or lil irks that would make sense un-irked.</p>
 
+![image](https://github.com/PocketRice/TinyPrismatics/assets/79682953/b155da17-5865-4a5a-93ec-a6e4cd585b1b)
 
