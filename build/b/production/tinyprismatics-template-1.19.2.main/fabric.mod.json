@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "tinyprismatics",
+	"version": "${version}",
+	"name": "TinyPrismatics",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tinyprismatics/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.pocketrice.TinyPrismatics"
+		],
+		"client": [
+			"io.github.pocketrice.TinyPrismaticsClient"
+		],
+		"fabric-datagen": [
+			"io.github.pocketrice.TinyPrismaticsDataGenerator"
+		]
+	},
+	"mixins": [
+		"tinyprismatics.mixins.json",
+		{
+			"config": "tinyprismatics.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
